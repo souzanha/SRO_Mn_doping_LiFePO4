@@ -1,0 +1,13 @@
+#!/bin/sh
+
+task(){
+	mkdir "$T"; cd $T; sed "{s/XXX/"$T"/g}" ../gin.0 > gin ; /home/jolla/bin/gulp_improved_MC_v3  < gin > gout ; cp res.res res.bak;
+}
+
+N=10
+(
+for T in 100 200 300 400 500 600 700 800 900 1000; do
+   ((i=i%N)); ((i++==0)) && wait
+   task "$T" &
+done
+)
