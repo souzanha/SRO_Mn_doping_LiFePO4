@@ -1,0 +1,1 @@
+python link_analys.py  MC/200/MC.xyz  MC/200/steps.dat >  100K.dat 

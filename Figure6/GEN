@@ -1,0 +1,1 @@
+echo -n "200  " >> LiFe_linked.dat ; python average_chain_lenght.py LINKED/200K.dat  >> LiFe_linked.dat
