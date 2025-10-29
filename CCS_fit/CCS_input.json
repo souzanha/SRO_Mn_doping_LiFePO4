@@ -1,0 +1,48 @@
+{
+        "General": {
+                "interface": "CCS+Q",
+                "merging": "False",
+                "do_unconstrained_fit": "True",
+                "do_ridge_regression" : "True",
+                "ridge_lambda"        : 1e-6
+        },
+        "Twobody": {
+                "Li-Li": {
+                        "Rcut": 3.5,
+                        "Resolution": 0.1,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                },
+                "Tc-Tc": {
+                        "Rcut": 4.2,
+                        "Resolution": 0.1,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                },
+		"Mn-Mn": {
+                        "Rcut": 4.2,
+                        "Resolution": 0.1,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                },
+
+                "Li-Tc": {
+                        "Rcut": 4.0,
+                        "Resolution": 0.1,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                },
+                "Li-Mn": {
+                        "Rcut": 4.0,
+                        "Resolution": 0.1,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                },
+                "Tc-Mn": {
+                        "Rcut": 4.2,
+                        "Resolution": 0.1,
+                        "Swtype": "rep",
+                        "const_type": "Mono"
+                }
+        }
+}

@@ -1,0 +1,2 @@
+ccs_fetch -m CCS+Q -chg '{"X":0.0,"Rh":0.0,"P":0.0,"O":0.0,"Tc":-1.0,"Li":1.0, "Mn":-1.0}' -d 1-2-LiFeMn2_0_Eopt_tot.db
+ccs_fit
